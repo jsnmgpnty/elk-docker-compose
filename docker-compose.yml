@@ -39,6 +39,6 @@ services:
     - "5044:5044"
     - "28777:28777"
     volumes:
-    - ./config-dir/logstash.conf:/etc/logstash/conf.d/logstash.conf:ro
+    - ./logstash/logstash.conf:/etc/logstash/conf.d/logstash.conf:ro
     - ./etc/logstash/pipeline:/usr/share/logstash/pipeline:ro
     command: logstash -f /etc/logstash/conf.d/logstash.conf
