@@ -11,7 +11,7 @@ Simple docker-compose config for ELK stack
 ### Example
 - Using node.js, winston-logstash-transport and winston
 
-1. winston.js
+create a new file (winston.js)
 ```
 const appRoot = require('app-root-path');
 const winston = require('winston');
