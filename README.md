@@ -1,9 +1,6 @@
 # docker-compose for ELK
 
-Simple docker-compose config for ELK stack
-  - Type some Markdown on the left
-  - See HTML in the right
-  - Magic
+Simple docker-compose config for ELK stack.
 
 ### Getting started
 - Start it up by running `docker-compose up -d`
